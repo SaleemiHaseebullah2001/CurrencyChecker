@@ -1,0 +1,65 @@
+body{
+    background-image: url('../img/minimalism_money.jpg');
+}
+.container{
+    text-align: center;
+    margin-top: 15%;
+}
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.action_button {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.action_button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.action_button:focus {
+    outline: none;
+}
+
+.action_button.act {
+    background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.alertPlus{
+    padding: 10px 30px;
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 8px;
+}
+.alert{
+    padding: 10px 30px;
+    background-color: #F44336;
+    color: white;
+    border-radius: 8px;
+}
