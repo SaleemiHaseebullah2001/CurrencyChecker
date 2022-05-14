@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
 body{
     background-image: url('../img/minimalism_money.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 .container{
     text-align: center;
     margin-top: 15%;
+    width: 100%;
+    transition: width .1s;
 }
 input[type=text] {
     width: 25%;
@@ -62,4 +70,14 @@ input[type=text] {
     background-color: #F44336;
     color: white;
     border-radius: 8px;
+}
+footer{
+    text-align: center;
+    font-size: 20;
+}
+@media screen and (max-width: 700px) {
+    input[type=text] {
+    width: 40%;
+    margin-top: 0;
+    }
 }
